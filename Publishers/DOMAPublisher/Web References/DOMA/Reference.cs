@@ -99,7 +99,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.DOMA {
         public event ConnectCompletedEventHandler ConnectCompleted;
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapRpcMethodAttribute("http://localhost/domadev/webservice.php/PublishMap", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
+        [System.Web.Services.Protocols.SoapRpcMethodAttribute("https://localhost/domadev/webservice.php/PublishMap", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
         [return: System.Xml.Serialization.SoapElementAttribute("response")]
         public PublishMapResponse PublishMap(PublishMapRequest request) {
             object[] results = this.Invoke("PublishMap", new object[] {
@@ -129,7 +129,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.DOMA {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapRpcMethodAttribute("http://localhost/domadev/webservice.php/PublishPreUploadedMap", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
+        [System.Web.Services.Protocols.SoapRpcMethodAttribute("https://localhost/domadev/webservice.php/PublishPreUploadedMap", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
         [return: System.Xml.Serialization.SoapElementAttribute("response")]
         public PublishPreUploadedMapResponse PublishPreUploadedMap(PublishPreUploadedMapRequest request) {
             object[] results = this.Invoke("PublishPreUploadedMap", new object[] {
@@ -159,7 +159,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.DOMA {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapRpcMethodAttribute("http://localhost/domadev/webservice.php/UploadPartialFile", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
+        [System.Web.Services.Protocols.SoapRpcMethodAttribute("https://localhost/domadev/webservice.php/UploadPartialFile", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
         [return: System.Xml.Serialization.SoapElementAttribute("response")]
         public UploadPartialFileResponse UploadPartialFile(UploadPartialFileRequest request) {
             object[] results = this.Invoke("UploadPartialFile", new object[] {
@@ -189,7 +189,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.DOMA {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapRpcMethodAttribute("http://localhost/domadev/webservice.php/GetAllMaps", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
+        [System.Web.Services.Protocols.SoapRpcMethodAttribute("https://localhost/domadev/webservice.php/GetAllMaps", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
         [return: System.Xml.Serialization.SoapElementAttribute("response")]
         public GetAllMapsResponse GetAllMaps(GetAllMapsRequest request) {
             object[] results = this.Invoke("GetAllMaps", new object[] {
@@ -219,7 +219,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.DOMA {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapRpcMethodAttribute("http://localhost/domadev/webservice.php/GetAllCategories", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
+        [System.Web.Services.Protocols.SoapRpcMethodAttribute("https://localhost/domadev/webservice.php/GetAllCategories", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
         [return: System.Xml.Serialization.SoapElementAttribute("response")]
         public GetAllCategoriesResponse GetAllCategories(GetAllCategoriesRequest request) {
             object[] results = this.Invoke("GetAllCategories", new object[] {
@@ -249,7 +249,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.DOMA {
         }
         
         /// <remarks/>
-        [System.Web.Services.Protocols.SoapRpcMethodAttribute("http://localhost/domadev/webservice.php/Connect", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
+        [System.Web.Services.Protocols.SoapRpcMethodAttribute("https://localhost/domadev/webservice.php/Connect", RequestNamespace="http://www.matstroeng.se/doma", ResponseNamespace="http://www.matstroeng.se/doma")]
         [return: System.Xml.Serialization.SoapElementAttribute("response")]
         public ConnectResponse Connect(ConnectRequest request) {
             object[] results = this.Invoke("Connect", new object[] {

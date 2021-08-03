@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="QuickRoute_Publishers_DOMAPublisher_DOMA_DOMAService" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://localhost/domadev/webservice.php</Value>
+      <Value Profile="(Default)">https://localhost/domadev/webservice.php</Value>
     </Setting>
   </Settings>
 </SettingsFile>

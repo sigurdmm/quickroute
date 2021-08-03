@@ -196,7 +196,7 @@
   <wsdl:binding name="DOMAServiceBinding" type="tns:DOMAServicePortType">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
     <wsdl:operation name="PublishMap">
-      <soap:operation soapAction="http://localhost/domadev/webservice.php/PublishMap" style="rpc" />
+      <soap:operation soapAction="https://localhost/domadev/webservice.php/PublishMap" style="rpc" />
       <wsdl:input>
         <soap:body use="encoded" namespace="http://www.matstroeng.se/doma" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
       </wsdl:input>
@@ -205,7 +205,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="PublishPreUploadedMap">
-      <soap:operation soapAction="http://localhost/domadev/webservice.php/PublishPreUploadedMap" style="rpc" />
+      <soap:operation soapAction="https://localhost/domadev/webservice.php/PublishPreUploadedMap" style="rpc" />
       <wsdl:input>
         <soap:body use="encoded" namespace="http://www.matstroeng.se/doma" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
       </wsdl:input>
@@ -214,7 +214,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="UploadPartialFile">
-      <soap:operation soapAction="http://localhost/domadev/webservice.php/UploadPartialFile" style="rpc" />
+      <soap:operation soapAction="https://localhost/domadev/webservice.php/UploadPartialFile" style="rpc" />
       <wsdl:input>
         <soap:body use="encoded" namespace="http://www.matstroeng.se/doma" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
       </wsdl:input>
@@ -223,7 +223,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetAllMaps">
-      <soap:operation soapAction="http://localhost/domadev/webservice.php/GetAllMaps" style="rpc" />
+      <soap:operation soapAction="https://localhost/domadev/webservice.php/GetAllMaps" style="rpc" />
       <wsdl:input>
         <soap:body use="encoded" namespace="http://www.matstroeng.se/doma" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
       </wsdl:input>
@@ -232,7 +232,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="GetAllCategories">
-      <soap:operation soapAction="http://localhost/domadev/webservice.php/GetAllCategories" style="rpc" />
+      <soap:operation soapAction="https://localhost/domadev/webservice.php/GetAllCategories" style="rpc" />
       <wsdl:input>
         <soap:body use="encoded" namespace="http://www.matstroeng.se/doma" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
       </wsdl:input>
@@ -241,7 +241,7 @@
       </wsdl:output>
     </wsdl:operation>
     <wsdl:operation name="Connect">
-      <soap:operation soapAction="http://localhost/domadev/webservice.php/Connect" style="rpc" />
+      <soap:operation soapAction="https://localhost/domadev/webservice.php/Connect" style="rpc" />
       <wsdl:input>
         <soap:body use="encoded" namespace="http://www.matstroeng.se/doma" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
       </wsdl:input>
@@ -252,7 +252,7 @@
   </wsdl:binding>
   <wsdl:service name="DOMAService">
     <wsdl:port name="DOMAServicePort" binding="tns:DOMAServiceBinding">
-      <soap:address location="http://localhost/domadev/webservice.php" />
+      <soap:address location="https://localhost/domadev/webservice.php" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

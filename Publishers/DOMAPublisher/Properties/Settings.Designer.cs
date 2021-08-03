@@ -26,7 +26,7 @@ namespace QuickRoute.Publishers.DOMAPublisher.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/domadev/webservice.php")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://localhost/domadev/webservice.php")]
         public string QuickRoute_Publishers_DOMAPublisher_DOMA_DOMAService {
             get {
                 return ((string)(this["QuickRoute_Publishers_DOMAPublisher_DOMA_DOMAService"]));

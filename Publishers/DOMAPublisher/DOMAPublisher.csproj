@@ -112,10 +112,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://localhost/domadev/webservice.php%3fwsdl">
+    <WebReferenceUrl Include="https://localhost/domadev/webservice.php%3fwsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\DOMA\</RelPath>
-      <UpdateFromURL>http://localhost/domadev/webservice.php%3fwsdl</UpdateFromURL>
+      <UpdateFromURL>https://localhost/domadev/webservice.php%3fwsdl</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
